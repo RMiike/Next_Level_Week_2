@@ -10,12 +10,27 @@ namespace Proffy.WebAPI.Controllers.v1
     {
         [HttpPost("classes")]
         public IActionResult Create(
-            [FromServices] IUserServices _userServices,
-            [FromBody] UserDTO userDTO)
+            [FromServices] ICreateClassServices _createClassServices,
+            [FromBody] CreateClassDTO createClassDTO)
         {
-            var userResult = _userServices.Create(userDTO);
+            var result = _createClassServices.Create(createClassDTO);
+            if (result.Success)
+                return Ok(result);
 
-            return Ok();
+            return BadRequest(result);
+        }
+
+        [HttpGet("classes")]
+        public IActionResult Index(
+            [FromQuery] int? week_day, string? subject, string? time,
+            [FromServices] ICreateClassServices _createClassServices)
+        {
+            var result = _createClassServices.Index(week_day, subject, time);
+
+            if(result.Success)
+                return Ok(result);
+
+            return BadRequest();
         }
     }
 }

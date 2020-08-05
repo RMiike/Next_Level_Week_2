@@ -10,7 +10,7 @@ using NextLevelWeek2.Data.Data;
 namespace Proffy.Data.Migrations
 {
     [DbContext(typeof(ProffyDbContext))]
-    [Migration("20200805105956_v1")]
+    [Migration("20200805195111_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,43 +20,6 @@ namespace Proffy.Data.Migrations
                 .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("NextLevelWeek2.Core.Entities.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("Id")
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Avatar")
-                        .IsRequired()
-                        .HasColumnName("Avatar")
-                        .HasColumnType("varchar(200)")
-                        .HasMaxLength(200);
-
-                    b.Property<string>("Bio")
-                        .IsRequired()
-                        .HasColumnName("Bio")
-                        .HasColumnType("varchar(450)")
-                        .HasMaxLength(60);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnName("Name")
-                        .HasColumnType("varchar(60)")
-                        .HasMaxLength(60);
-
-                    b.Property<string>("Whatsapp")
-                        .IsRequired()
-                        .HasColumnName("Whatsapp")
-                        .HasColumnType("varchar(11)")
-                        .HasMaxLength(11);
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ProffyUser");
-                });
 
             modelBuilder.Entity("Proffy.Core.Entities.Class", b =>
                 {
@@ -95,15 +58,15 @@ namespace Proffy.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("ClassId")
-                        .HasColumnName("WeekDay")
+                        .HasColumnName("ClassId")
                         .HasColumnType("int");
 
                     b.Property<int>("From")
-                        .HasColumnName("WeekDay")
+                        .HasColumnName("From")
                         .HasColumnType("int");
 
                     b.Property<int>("To")
-                        .HasColumnName("WeekDay")
+                        .HasColumnName("To")
                         .HasColumnType("int");
 
                     b.Property<int>("WeekDay")
@@ -140,9 +103,46 @@ namespace Proffy.Data.Migrations
                     b.ToTable("Connection");
                 });
 
+            modelBuilder.Entity("Proffy.Core.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("Id")
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Avatar")
+                        .IsRequired()
+                        .HasColumnName("Avatar")
+                        .HasColumnType("varchar(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("Bio")
+                        .IsRequired()
+                        .HasColumnName("Bio")
+                        .HasColumnType("varchar(450)")
+                        .HasMaxLength(60);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnName("Name")
+                        .HasColumnType("varchar(60)")
+                        .HasMaxLength(60);
+
+                    b.Property<string>("Whatsapp")
+                        .IsRequired()
+                        .HasColumnName("Whatsapp")
+                        .HasColumnType("varchar(11)")
+                        .HasMaxLength(11);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProffyUser");
+                });
+
             modelBuilder.Entity("Proffy.Core.Entities.Class", b =>
                 {
-                    b.HasOne("NextLevelWeek2.Core.Entities.User", "User")
+                    b.HasOne("Proffy.Core.Entities.User", "User")
                         .WithMany("Classes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -160,7 +160,7 @@ namespace Proffy.Data.Migrations
 
             modelBuilder.Entity("Proffy.Core.Entities.Connection", b =>
                 {
-                    b.HasOne("NextLevelWeek2.Core.Entities.User", "User")
+                    b.HasOne("Proffy.Core.Entities.User", "User")
                         .WithMany("Connections")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

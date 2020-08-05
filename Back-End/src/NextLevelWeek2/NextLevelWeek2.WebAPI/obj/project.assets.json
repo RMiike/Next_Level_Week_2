@@ -1363,7 +1363,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Proffy.Core": "1.0.0"
+          "Proffy.Core": "1.0.0",
+          "Proffy.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Proffy.ApplicationService.dll": {}

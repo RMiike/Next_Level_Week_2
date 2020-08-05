@@ -23,17 +23,17 @@ namespace Proffy.Data.Configurations
             .IsRequired();
 
             builder.Property(x => x.From)
-           .HasColumnName("WeekDay")
+           .HasColumnName("From")
             .HasColumnType("int")
            .IsRequired();
 
             builder.Property(x => x.To)
-           .HasColumnName("WeekDay")
+           .HasColumnName("To")
             .HasColumnType("int")
            .IsRequired();
 
             builder.Property(x => x.ClassId)
-           .HasColumnName("WeekDay")
+           .HasColumnName("ClassId")
             .HasColumnType("int")
            .IsRequired();
 

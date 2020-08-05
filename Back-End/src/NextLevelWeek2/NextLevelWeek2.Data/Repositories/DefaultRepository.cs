@@ -2,6 +2,7 @@
 using NextLevelWeek2.Data.Data;
 using Proffy.Core.Contracts;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Proffy.Data.Repositories
@@ -26,9 +27,9 @@ namespace Proffy.Data.Repositories
             table.Remove(existing);
         }
 
-        public async Task<IEnumerable<T>> Get()
+        public IEnumerable<T> Get()
         {
-            return await table.ToListAsync();
+            return table.ToList();
         }
 
         public T Get(int id)

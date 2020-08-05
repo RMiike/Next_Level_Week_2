@@ -5,7 +5,7 @@ namespace Proffy.Core.Contracts
 {
     public interface IDefaultRepository<T> where T : class
     {
-        Task<IEnumerable<T>> Get();
+        IEnumerable<T> Get();
         T Get(int id);
         void Create( T obj);
         void Update(T obj);

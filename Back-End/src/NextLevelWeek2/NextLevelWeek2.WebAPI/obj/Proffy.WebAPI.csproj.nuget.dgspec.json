@@ -30,6 +30,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.Data\\Proffy.Data.csproj": {
+                "projectPath": "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.Data\\Proffy.Data.csproj"
+              },
               "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.Domain\\Proffy.Core.csproj": {
                 "projectPath": "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.Domain\\Proffy.Core.csproj"
               }

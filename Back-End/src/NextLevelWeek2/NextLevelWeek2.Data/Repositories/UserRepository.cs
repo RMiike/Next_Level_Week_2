@@ -17,5 +17,6 @@ namespace Proffy.Data.Repositories
         {
             return _context.Users.Where(x => x.Name == name).FirstOrDefault();
         }
+
     }
 }

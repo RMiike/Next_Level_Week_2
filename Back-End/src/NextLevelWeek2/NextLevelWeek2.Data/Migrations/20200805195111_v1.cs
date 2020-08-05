@@ -70,14 +70,17 @@ namespace Proffy.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    WeekDay = table.Column<int>(type: "int", nullable: false)
+                    WeekDay = table.Column<int>(type: "int", nullable: false),
+                    From = table.Column<int>(type: "int", nullable: false),
+                    To = table.Column<int>(type: "int", nullable: false),
+                    ClassId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ClassSchedule", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ClassSchedule_Class_WeekDay",
-                        column: x => x.WeekDay,
+                        name: "FK_ClassSchedule_Class_ClassId",
+                        column: x => x.ClassId,
                         principalTable: "Class",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -89,9 +92,9 @@ namespace Proffy.Data.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ClassSchedule_WeekDay",
+                name: "IX_ClassSchedule_ClassId",
                 table: "ClassSchedule",
-                column: "WeekDay");
+                column: "ClassId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Connection_UserId",

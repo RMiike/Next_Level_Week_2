@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NextLevelWeek2.Data\Proffy.Data.csproj" />
     <ProjectReference Include="..\NextLevelWeek2.Domain\Proffy.Core.csproj" />
   </ItemGroup>
 

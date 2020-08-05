@@ -7,3 +7,8 @@ C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\N
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netcoreapp3.1\Proffy.ApplicationService.csproj.CoreCompileInputs.cache
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netcoreapp3.1\Proffy.ApplicationService.dll
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netcoreapp3.1\Proffy.ApplicationService.pdb
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netcoreapp3.1\Proffy.Core.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netcoreapp3.1\Proffy.Core.pdb
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netcoreapp3.1\Proffy.ApplicationService.csproj.CopyComplete
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netcoreapp3.1\Proffy.Data.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netcoreapp3.1\Proffy.Data.pdb
