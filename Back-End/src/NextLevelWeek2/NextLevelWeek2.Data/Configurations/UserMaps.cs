@@ -43,6 +43,7 @@ namespace Proffy.Data.Configurations
              .HasMaxLength(60)
              .HasColumnType("varchar(450)")
             .IsRequired();
+
         }
     }
 }

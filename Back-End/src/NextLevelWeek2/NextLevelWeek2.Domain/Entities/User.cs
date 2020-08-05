@@ -25,5 +25,6 @@ namespace NextLevelWeek2.Core.Entities
         public string Whatsapp { get; private set; }
         public string Bio { get; private set; }
         public IEnumerable<Class> Classes{ get; private set; }
+        public IEnumerable<Connection> Connections{ get; private set; }
     }
 }
