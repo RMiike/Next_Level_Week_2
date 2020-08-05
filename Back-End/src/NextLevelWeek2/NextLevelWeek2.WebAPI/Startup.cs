@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NextLevelWeek2.Data.Data;
+using Proffy.ApplicationService.Services;
+using Proffy.Core.Contracts;
+using Proffy.Data.Repositories;
 
 namespace NextLevelWeek2.WebAPI
 {
@@ -30,6 +33,12 @@ namespace NextLevelWeek2.WebAPI
 
             services.AddDbContext<ProffyDbContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+
+            services.AddScoped<IClassRepository, ClassRepository>();
+            services.AddScoped<IClassScheduleRepository, ClassScheduleRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserServices, UserServices>();
+            services.AddScoped<IConnectionRepository, ConnectionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,5 +1,4 @@
-﻿using NextLevelWeek2.Core.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Proffy.Core.Entities
 {

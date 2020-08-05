@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NextLevelWeek2.Core.Entities;
 using Proffy.Core.Entities;
 using Proffy.Data.Configurations;
 

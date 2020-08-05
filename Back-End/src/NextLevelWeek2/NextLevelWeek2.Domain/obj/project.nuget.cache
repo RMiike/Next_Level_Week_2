@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6Rtr2RoK9PjNf5G7PGKFHn8T+NJMEbx6JTHvotm9nu1rBpDiBNvOe9fDOknQD8n4AaVgz31gLmGGnPb8EuSBw==",
+  "dgSpecHash": "GKUuvzAzwEvIBz5aMj95jXPYB3DAklW3mkLtXvYIwBA+PFYy6XbxOtJ6N+jrbs3scVw9QD+rFIqSxSxoiw6txw==",
   "success": true,
   "projectFilePath": "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.Domain\\Proffy.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\miike\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

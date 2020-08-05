@@ -1,7 +1,6 @@
-﻿using Proffy.Core.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace NextLevelWeek2.Core.Entities
+namespace Proffy.Core.Entities
 {
     public class User
     {
@@ -24,7 +23,7 @@ namespace NextLevelWeek2.Core.Entities
         public string Avatar { get; private set; }
         public string Whatsapp { get; private set; }
         public string Bio { get; private set; }
-        public IEnumerable<Class> Classes{ get; private set; }
-        public IEnumerable<Connection> Connections{ get; private set; }
+        public IEnumerable<Class> Classes { get; private set; }
+        public IEnumerable<Connection> Connections { get; private set; }
     }
 }

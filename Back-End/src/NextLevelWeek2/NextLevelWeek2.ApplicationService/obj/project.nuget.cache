@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EsUJ42x/HzfWnj/HwHFLYBLAKbNN3k1uFEqHxmu/H5KLPI9EgrH6d8LS1eGeklWO0AkCQCXltWHSdT0kpQcOCw==",
+  "dgSpecHash": "eMvg6AM2trWzFBY9DBbrukB+rlSQ3UkxC1jCDbG4k8LQU4XFX8jWeEEiYdYobe0KTubT/Ss+PXpR97l+GHLGcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.ApplicationService\\NextLevelWeek2.ApplicationService.csproj",
+  "projectFilePath": "C:\\Users\\miike\\source\\ReactRepos\\Next_Level_Week_2\\Back-End\\src\\NextLevelWeek2\\NextLevelWeek2.ApplicationService\\Proffy.ApplicationService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\miike\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\miike\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\miike\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
   ],
   "logs": []
 }

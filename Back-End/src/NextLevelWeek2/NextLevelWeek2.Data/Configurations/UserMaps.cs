@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NextLevelWeek2.Core.Entities;
+using Proffy.Core.Entities;
 
 namespace Proffy.Data.Configurations
 {

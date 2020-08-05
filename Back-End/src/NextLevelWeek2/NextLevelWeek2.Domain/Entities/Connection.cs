@@ -1,5 +1,4 @@
-﻿using NextLevelWeek2.Core.Entities;
-using System;
+﻿using System;
 
 namespace Proffy.Core.Entities
 {
@@ -12,8 +11,9 @@ namespace Proffy.Core.Entities
             CreatedAt = createdAt;
             UserId = userId;
         }
-        public static Connection Create(int id, DateTime createdAt, int userId)
+        public static Connection Create(int id, int userId)
         {
+            DateTime createdAt = DateTime.UtcNow;
             return new Connection(id, createdAt, userId);
         }
         public int Id { get; private set; }

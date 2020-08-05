@@ -54,5 +54,6 @@ C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\N
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\bin\Debug\netcoreapp3.1\Proffy.Core.pdb
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\obj\Debug\netcoreapp3.1\Proffy.WebAPI.csprojAssemblyReference.cache
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\bin\Debug\netcoreapp3.1\Flunt.dll
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\obj\Debug\netcoreapp3.1\Proffy.WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.WebAPI\obj\Debug\netcoreapp3.1\Proffy.WebAPI.MvcApplicationPartsAssemblyInfo.cache

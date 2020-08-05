@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proffy.Core", "NextLevelWee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proffy.Data", "NextLevelWeek2.Data\Proffy.Data.csproj", "{1E0C8E6E-31CD-4010-8481-DBC96CE23D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextLevelWeek2.ApplicationService", "NextLevelWeek2.ApplicationService\NextLevelWeek2.ApplicationService.csproj", "{07C44C74-B748-4BCA-8685-3C797D88AF4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proffy.ApplicationService", "NextLevelWeek2.ApplicationService\Proffy.ApplicationService.csproj", "{07C44C74-B748-4BCA-8685-3C797D88AF4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
