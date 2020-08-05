@@ -1,0 +1,8 @@
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\bin\Debug\netcoreapp3.1\Proffy.Core.deps.json
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\bin\Debug\netcoreapp3.1\Proffy.Core.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\bin\Debug\netcoreapp3.1\Proffy.Core.pdb
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\obj\Debug\netcoreapp3.1\Proffy.Core.AssemblyInfoInputs.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\obj\Debug\netcoreapp3.1\Proffy.Core.AssemblyInfo.cs
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\obj\Debug\netcoreapp3.1\Proffy.Core.csproj.CoreCompileInputs.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\obj\Debug\netcoreapp3.1\Proffy.Core.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Domain\obj\Debug\netcoreapp3.1\Proffy.Core.pdb
