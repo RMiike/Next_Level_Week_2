@@ -30,8 +30,8 @@ namespace Proffy.Core.DTOs
                .HasMaxLen(Avatar, 200, "Avatar", "This field should have no more than 200 chars.")
                .HasMinLen(Avatar, 6, "Avatar", "This field should have at least 6 chars.")
                .IsUrl(Avatar, "Avatar", "Should be a valid url.")
-                .HasLen(Whatsapp, 11, "Whatsapp", "This field should have 11 chars.")
-                 .HasMaxLen(Bio, 450, "Bio", "This field should have no more than 450 chars.")
+               .HasLen(Whatsapp, 11, "Whatsapp", "This field should have 11 chars.")
+               .HasMaxLen(Bio, 450, "Bio", "This field should have no more than 450 chars.")
                .HasMinLen(Bio, 6, "Bio", "This field should have at least 6 chars.")
                  );
         }

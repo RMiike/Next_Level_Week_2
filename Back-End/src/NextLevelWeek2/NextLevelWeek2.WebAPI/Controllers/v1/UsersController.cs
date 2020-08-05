@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Proffy.Core.Contracts;
 
 namespace Proffy.WebAPI.Controllers.v1
 {
@@ -8,8 +7,7 @@ namespace Proffy.WebAPI.Controllers.v1
     public class UsersController : ControllerBase
     {
         [HttpPost("user")]
-        public IActionResult Create(
-            IUserServices _userServices)
+        public IActionResult Create()
         {
             return Ok();
         }
