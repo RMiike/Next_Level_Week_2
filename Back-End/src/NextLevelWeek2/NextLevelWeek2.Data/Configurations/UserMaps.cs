@@ -26,8 +26,8 @@ namespace Proffy.Data.Configurations
 
             builder.Property(x => x.Avatar)
             .HasColumnName("Avatar")
-             .HasMaxLength(200)
-             .HasColumnType("varchar(200)")
+             .HasMaxLength(450)
+             .HasColumnType("varchar(450)")
             .IsRequired();
 
 

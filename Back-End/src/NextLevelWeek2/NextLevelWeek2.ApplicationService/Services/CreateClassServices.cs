@@ -88,7 +88,7 @@ namespace Proffy.ApplicationService.Services
                 .Where(x=> x.WeekDay == week_day && x.From <= timeInMinutes && x.To >= timeInMinutes)
                 .Select(x=> x.Class)
                 .Where(x => x.Subject == subject)
-                .Select( x => new ReadClassDTO(x.Id, x.Subject, x.Cost, x.UserId, x.User)).FirstOrDefault();
+                .Select( x => new ReadClassDTO(x.Id, x.Subject, x.Cost, x.UserId, x.User)).ToArray();
 
 
             return new ResultDTO(true, "Lista", classes);
