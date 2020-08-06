@@ -1,0 +1,9 @@
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.deps.json
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\bin\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.pdb
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.csprojAssemblyReference.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.AssemblyInfo.cs
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.ApplicationService\obj\Debug\netstandard2.0\NextLevelWeek2.ApplicationService.pdb

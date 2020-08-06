@@ -1,0 +1,4 @@
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Data\bin\Debug\netstandard2.0\NextLevelWeek2.Data.deps.json
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Data\bin\Debug\netstandard2.0\NextLevelWeek2.Data.dll
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Data\obj\Debug\netstandard2.0\NextLevelWeek2.Data.AssemblyInfoInputs.cache
+C:\Users\miike\source\ReactRepos\Next_Level_Week_2\Back-End\src\NextLevelWeek2\NextLevelWeek2.Data\obj\Debug\netstandard2.0\NextLevelWeek2.Data.AssemblyInfo.cs
