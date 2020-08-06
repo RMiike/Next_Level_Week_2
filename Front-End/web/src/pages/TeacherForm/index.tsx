@@ -24,12 +24,8 @@ const TeacherForm: React.FC = () => {
       <PageHeader
         title='Que incrível que você quer dar aulas.'
         description='O primeiro passo, é preencher esse
-<<<<<<< HEAD
         formulário de inscrição.'
       />
-=======
-    formulário de inscrição.'/>
->>>>>>> feature-back-end
       <main>
         <fieldset>
           <legend>Seus dados</legend>
@@ -57,7 +53,6 @@ const TeacherForm: React.FC = () => {
         <fieldset>
           <legend>
             Horários disponíveis
-<<<<<<< HEAD
             <button onClick={addNewSchedule}>+ Novo horário</button>
           </legend>
           {scheduleItems.map((scheduleItem,index) => {
@@ -81,9 +76,7 @@ const TeacherForm: React.FC = () => {
               </div>
             )
           })}
-=======
             <button>+ Novo horário</button>
-          </legend>
           <div className="schedule-item">
           <Select
             label="Dia da semana" 
@@ -101,7 +94,6 @@ const TeacherForm: React.FC = () => {
           <Input name='from' label='Das' type='time' />
           <Input name='to' label='Até' type='time' />
           </div>
->>>>>>> feature-back-end
         </fieldset>
 
         <footer>
