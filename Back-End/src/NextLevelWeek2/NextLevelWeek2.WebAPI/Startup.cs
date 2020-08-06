@@ -34,6 +34,9 @@ namespace NextLevelWeek2.WebAPI
             services.AddScoped<ICreateClassServices, CreateClassServices>();
             services.AddScoped<IConnectionRepository, ConnectionRepository>();
             services.AddScoped<IConnectionServices , ConnectionServices>();
+
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

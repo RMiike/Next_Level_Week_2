@@ -22,7 +22,7 @@ namespace Proffy.WebAPI.Controllers.v1
 
         [HttpGet("classes")]
         public IActionResult Index(
-            [FromQuery] int? week_day, string? subject, string? time,
+            [FromQuery] int? week_day, string subject, string time,
             [FromServices] ICreateClassServices _createClassServices)
         {
             var result = _createClassServices.Index(week_day, subject, time);
